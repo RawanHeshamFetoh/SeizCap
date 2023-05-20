@@ -2,7 +2,7 @@
     <div class="team-member" @mouseover="show=true" @mouseleave="show=false">
         <div class="member-info">
             <img class="member-img" :src="this.memberImage" alt="">
-            <div class="member-social-media" >
+            <div class="member-social-media" v-show="show" >
                 <a :href="this.memberTwitter" target="_blank" id="twitter"><i class="fa-brands fa-twitter"></i></a>
                 <a :href="this.memberFace" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                 <a :href="this.memberLinkedIn" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
