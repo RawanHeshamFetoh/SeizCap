@@ -25,7 +25,7 @@
          </div>
       </div>
 
-      <button id="download" >
+      <button id="downloads" >
                     Download App
                 </button>
     </div>
@@ -33,7 +33,7 @@
 
     <div class=" statistics col-lg-6 col-md-6 col-sm-12">
       
-        <img class="report pt-3"  src="../assets/images/group2.png">
+        <img class="report pt-3"  src="../assets/images/group2.png" alt="reportScreen" loading="lazy">
     </div>
 </div>
  </template>
@@ -92,7 +92,7 @@ export default {
     padding-left: 10px;
     color: rgb(46, 46, 46);
 }
-#download{
+#downloads{
             border: none;
             padding: 14px;
         background:  linear-gradient( to right ,rgba(61, 103, 251, 1),rgba(156, 44, 250, 1));

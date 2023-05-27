@@ -13,10 +13,10 @@
                 <div id="rates">
 
                 <div class="imgs ">
-                    <img id="pic1" src="../assets/images/pic1.png">
-                    <img id="pic2" src="../assets/images/pic2.png">
-                    <img id="pic3" src="../assets/images/pic3.png">
-                    <img id="pic4" src="../assets/images/pic1.png">
+                    <img id="pic1" src="../assets/images/pic1.png" alt="member1" loading="lazy">
+                    <img id="pic2" src="../assets/images/pic2.png" alt="member2" loading="lazy">
+                    <img id="pic3" src="../assets/images/pic3.png" alt="member3" loading="lazy">
+                    <img id="pic4" src="../assets/images/pic1.png" alt="member4" loading="lazy">
                 </div>
 
                 <div class="rating">
@@ -33,12 +33,12 @@
 
 
         <div class="shots col-lg-6 col-md-4 col-sm-12">
-            <img class="shot1" src="../assets/images/shot1.png">
-            <img class="shot2" src="../assets/images/shot2.png">
-            <img class="shot3" src="../assets/images/shot3.png">
-            <img  class="shape1" src="../assets/images/shape1.png">
-            <img  class="shape2" src="../assets/images/circle.png">
-            <img  class="shape3" src="../assets/images/circle.png">
+            <img class="shot1" src="../assets/images/shot1.png" alt="heartRateScreen" loading="lazy">
+            <img class="shot2" src="../assets/images/shot2.png" alt="sezBotScreen" loading="lazy">
+            <img class="shot3" src="../assets/images/shot3.png" alt="homeSccreen" loading="lazy">
+            <img  class="shape1" src="../assets/images/shape1.png" alt="shape" loading="lazy">
+            <img  class="shape2" src="../assets/images/circle.png" alt="circle" loading="lazy">
+            <img  class="shape3" src="../assets/images/circle.png" alt="circle" loading="lazy">
 
 
 

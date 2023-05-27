@@ -1,7 +1,7 @@
 <template>
     <div class="team-member" @mouseover="show=true" @mouseleave="show=false">
         <div class="member-info">
-            <img class="member-img" :src="this.memberImage" alt="">
+            <img class="member-img" :src="this.memberImage" loading="lazy" :alt="this.memberName">
             <div class="member-social-media" v-show="show" >
                 <a :href="this.memberTwitter" target="_blank" id="twitter"><i class="fa-brands fa-twitter"></i></a>
                 <a :href="this.memberFace" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>

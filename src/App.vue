@@ -1,6 +1,5 @@
 <template>
   <div >
-    
     <NavBar/>
     <Header id="Header"/> 
     <Features  id="Features"/>
@@ -22,6 +21,7 @@
 @font-face{
   font-family: DINTEXT ;
   src: url(assets/fonts/DINTEXT.ttf);
+  font-display: swap;
 }
 .sec-header-title{
   font-size: 26px;
@@ -78,7 +78,7 @@ import AboutSeiz from './views/AboutSeiz.vue'
 import BlogPost from './views/BlogPost.vue';
 import AppInfo from './views/AppInfo.vue';
 import OurTeam from './views/OurTeam.vue';
-import HomeView from './views/HomeView.vue';
+
 import AppScreen from './views/AppScreen.vue';
 import Footer from './views/Footer.vue'
 
@@ -94,10 +94,8 @@ export default {
     BlogPost,
     AppInfo,
     OurTeam,
-    HomeView,
     AppScreen,
     Footer,
-   
   }
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
     <div class="app-single-info text-center mb-5 mb-lg-0 me-3 me-lg-0 col-6 col-md-4 col-lg-2 ">
-        <img :src="this.infoImg" alt="">
+        <img :src="this.infoImg" alt="this.infoImg" loading="lazy" >
         <p class="info-number">{{ infoNumber }}</p>
         <p class="info-title">{{ infoTitle }}</p>
     </div>

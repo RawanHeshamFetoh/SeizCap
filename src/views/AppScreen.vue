@@ -33,49 +33,49 @@
     
     <swiper-slide id="swiper">
       <div class="screen">
-        <img src="../assets/images/screen1.png" class="main-screen"  alt="">
+        <img src="../assets/images/screen1.png" class="main-screen"  alt="HomeScreen" loading="lazy" >
       </div>
     </swiper-slide>
     
     <swiper-slide >
       <div class="screen">
-        <img src="../assets/images/cover.png" class="cover" alt="">
-        <img src="../assets/images/screen2.png" class="screen-content" alt="">
+        <img src="../assets/images/cover.png" class="cover" alt="cover"  loading="lazy">
+        <img src="../assets/images/screen2.png" class="screen-content" alt="sezBotScreen"  loading="lazy">
       </div>
     </swiper-slide>
     
     <swiper-slide >
       <div class="screen">
-        <img src="../assets/images/cover.png" class="cover" alt="">
-        <img src="../assets/images/screen3.png" class="screen-content" alt="">
+        <img src="../assets/images/cover.png" class="cover" alt="cover"  loading="lazy">
+        <img src="../assets/images/screen3.png" class="screen-content" alt="chatContanentScreen" loading="lazy">
       </div>
     </swiper-slide>
 
     <swiper-slide >
       <div class="screen">
-        <img src="../assets/images/cover.png" class="cover" alt="">
-        <img src="../assets/images/screen4.png" class="screen-content" alt="">
+        <img src="../assets/images/cover.png" class="cover" alt="cover" loading="lazy">
+        <img src="../assets/images/screen4.png" class="screen-content" alt="splashScreen" loading="lazy">
       </div>
     </swiper-slide>
     
     <swiper-slide >
       <div class="screen">
-        <img src="../assets/images/cover.png" class="cover" alt="">
-        <img src="../assets/images/screen7.png" class="screen-content" alt="">
+        <img src="../assets/images/cover.png" class="cover" alt="cover" loading="lazy">
+        <img src="../assets/images/screen7.png" class="screen-content" alt="scanScreen" loading="lazy">
       </div>
     </swiper-slide>
 
     <swiper-slide >
       <div class="screen">
-        <img src="../assets/images/cover.png" class="cover" alt="">
-        <img src="../assets/images/screen6.png" class="screen-content" alt="">
+        <img src="../assets/images/cover.png" class="cover" alt="cover" loading="lazy">
+        <img src="../assets/images/screen6.png" class="screen-content" alt="profileScreen" loading="lazy">
       </div>
     </swiper-slide>
     
     <swiper-slide >
       <div class="screen">
-        <img src="../assets/images/cover.png" class="cover" alt="">
-        <img src="../assets/images/screen5.png" class="screen-content" alt="">
+        <img src="../assets/images/cover.png" class="cover" alt="cover" loading="lazy">
+        <img src="../assets/images/screen5.png" class="screen-content" alt="batteryScreen" loading="lazy">
       </div>
     </swiper-slide>
 

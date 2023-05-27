@@ -1,11 +1,11 @@
 <template >
     <div  class="post col-12 col-md-5 col-lg-3 mb-5 mb-lg-0 me-md-1 me-lg-0">
-        <!-- class=" posts col-4 " for the root div -->
-        <img class="post-img col-12 " :src="this.postImg" alt="">
+        
+        <img class="post-img col-12 " :src="this.postImg" :alt="this.diseaeType" loading="lazy">
         <div class="type-of-disease">
             <p class="col-2 col-lg-5 ">{{ diseaeType }}</p>
                 <div class="post-time col-8 col-lg-7 ">
-                <img src="../assets/images/clock-light1.png" alt="">
+                <img src="../assets/images/clock-light1.png" alt="clock" loading="lazy">
                 <p>posted on <span> 3 days ago</span> </p>
             </div>
         </div>
@@ -18,6 +18,7 @@
 </template>
 
 <script>
+
 export default {
     
     props:{
@@ -38,28 +39,12 @@ export default {
     font-family: DINTEXT;
 }
 .post {
-    /*width: 27% !important;*/
     position: relative;
     margin-bottom: 100px;
 }
-/*.post::after{
-    position: absolute;
-    content: '';
-    width: 1px;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
-    right: -65px;
-    top: 0px;
-}
-.special-post::after{
-    content: '';
-    width: 0;
-    height: 0;
-}*/
 
 .post-img{
-    /* width: 398px;
-    height: 246px; */
+    
     margin-bottom: 24px;
 }
 .type-of-disease,.post-time{
@@ -155,7 +140,7 @@ export default {
 
     .post{
         width:30%;
-        /*width: 27%;*/
+        
     }
 }
 

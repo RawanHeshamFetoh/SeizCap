@@ -1,7 +1,7 @@
 <template>
     <div>
         <footer class="footer">
-            <p id="download">what are you waiting for? download now </p>
+            <p id="download-app">what are you waiting for? download now </p>
             <div class="download-btns d-md-flex  justify-content-around">
                 <div class="download-btn   d-flex mb-5 mb-md-0">
                     <i class="fa-brands fa-apple"></i>
@@ -57,13 +57,12 @@ export default {
 footer{
     background: linear-gradient(90deg, #3D67FB -15.83%, #9C2CFA 85.13%);
     padding:108px 10% 0 ;
-    /* height: 701px; */
     position: relative;
     }
     footer p{
         font-family: DINTEXT;
     }
-    #download{
+    #download-app{
         color: #FFFFFF;
         font-weight: 700;
         font-size: 43px;
@@ -182,7 +181,7 @@ footer{
     
     
     @media (max-width:767px) {
-        #download{
+        #download-app{
             font-size: 20px;
         }
     

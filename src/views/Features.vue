@@ -2,7 +2,7 @@
 <div class="features" >
 
 <div class="fshot col-lg-5 col-md-5 col-sm-12">
-    <img class="shot4" src="../assets/images/group12.png">
+    <img class="shot4" src="../assets/images/group12.png" alt="honeScreen" loading="lazy">
 
 </div>
 
@@ -17,7 +17,7 @@
 
     <div class="ficon  ">
         <div class="imgicon">
-            <img id="icon1" class="pt-3" src="../assets/images/icon1.png">
+            <img id="icon1" class="pt-3" src="../assets/images/icon1.png" alt="icon" loading="lazy">
         </div>
 
          <div class="fdetail">
@@ -29,7 +29,7 @@
 
     <div class="ficon">
          <div class="imgicon">
-            <img id="icon2" class="pt-2" src="../assets/images/icon2.png">
+            <img id="icon2" class="pt-2" src="../assets/images/icon2.png" alt="headPhone" loading="lazy">
              </div>
              <div class="fdetail">
              <h5>24/7 Support</h5>
@@ -39,7 +39,7 @@
 
     <div class="ficon"> 
         <div class="imgicon">
-            <img id="icon3" class="pt-3" src="../assets/images/icon3.png">
+            <img id="icon3" class="pt-3" src="../assets/images/icon3.png" alt="chart" loading="lazy">
              </div>
              <div class="fdetail">
              <h5>Cost Statistics</h5>
@@ -49,7 +49,7 @@
 
               <div class="ficon">
                 <div class="imgicon">
-            <img id="icon4" class="pt-3" src="../assets/images/icon4.png">
+            <img id="icon4" class="pt-3" src="../assets/images/icon4.png" alt="cloud" loading="lazy" >
              </div>
              <div class="fdetail">
              <h5>Cloud Storage</h5>
@@ -59,7 +59,7 @@
 
     <div class="ficon">
         <div class="imgicon">
-            <img id="icon5" class="pt-3" src="../assets/images/icon5.png">
+            <img id="icon5" class="pt-3" src="../assets/images/icon5.png" alt="verification" loading="lazy">
              </div>
              <div class="fdetail">
              <h5>Fully Secured</h5>
@@ -68,7 +68,7 @@
     </div>
     <div class="ficon">
         <div class="imgicon d-flex align-items-baseline">
-            <img id="icon6" class="pt-2 ps-2" src="../assets/images/icon6.png">
+            <img id="icon6" class="pt-2 ps-2" src="../assets/images/icon6.png" alt="happy" loading="lazy">
              </div>
              <div class="fdetail">
              <h5>Top Standards</h5>

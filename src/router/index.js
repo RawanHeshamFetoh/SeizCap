@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 import BlogBlot from '../views/BlogPost.vue'
 import nav from '../views/NavBar.vue'
 import features from '../views/Features.vue'
