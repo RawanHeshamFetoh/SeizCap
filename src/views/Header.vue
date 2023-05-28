@@ -62,9 +62,11 @@
 }
 .medapp p{
     color: rgb(126, 125, 125);
+    font-family: DINTEXT;
 }
 .medapp h4{
     font-size: 40px;
+    font-family: DINTEXT;
 }
 .shots{
     position: relative;
@@ -108,20 +110,18 @@ left: 62px;
 left: 92px;
 }
 
-*{
-    font-family: DINTEXT;
-}
+
 #download{
-            border: none;
-            padding: 14px;
+        border: none;
+        padding: 14px;
         background:  linear-gradient( to right ,rgba(61, 103, 251, 1),rgba(156, 44, 250, 1));
         border-radius: 7px;
         color: white;
         font-size: 12px;
         width: 130px;
         margin-top: 20px;
-            
-         }
+        font-family: DINTEXT;
+        }
          #rates{
             display: flex;
             margin-top: 20px;

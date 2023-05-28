@@ -18,17 +18,17 @@
     <div class="ficon  ">
         <div class="imgicon">
             <img id="icon1" class="pt-3" src="../assets/images/icon1.png" alt="icon" loading="lazy">
-        </div>
+    </div>
 
-         <div class="fdetail">
-             <h5>Perfect Ui Design</h5>
-             <p class="text-muted">Lorem  ipsum  dolor  sit  amet  consectetur   adipisicing  elit   Sapiente   distinctio sit  .</p>
-         </div> 
+        <div class="fdetail">
+            <h5>Perfect Ui Design</h5>
+            <p class="text-muted">Lorem  ipsum  dolor  sit  amet  consectetur   adipisicing  elit   Sapiente   distinctio sit  .</p>
+        </div> 
 
     </div>
 
     <div class="ficon">
-         <div class="imgicon">
+        <div class="imgicon">
             <img id="icon2" class="pt-2" src="../assets/images/icon2.png" alt="headPhone" loading="lazy">
              </div>
              <div class="fdetail">
