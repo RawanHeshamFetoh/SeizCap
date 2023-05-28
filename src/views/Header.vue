@@ -167,8 +167,8 @@ margin-left: 20px;
          }
          .shape3{
             position: absolute;
-            right: 15%;
-            top: 13%;
+            right: 20%;
+            top: 15%;
          }
          @media only screen and (max-width: 870px){
     .header{
