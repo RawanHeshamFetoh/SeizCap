@@ -12,9 +12,6 @@
                 <router-link to="/blogs" v-scroll-to="'#BlogBlot'">Blogs</router-link>
                 <router-link to="/team" v-scroll-to="'#OurTeam'">Our Team</router-link>
             </ul>
-         
-
-
             <div id="navigation-icon" v-if="mobileview">
                 <i @click="toggle" class="fas fa-bars"></i>
                   <ul v-if="active" id="mobnav">
@@ -22,15 +19,12 @@
                     <li><router-link to="/features" v-scroll-to="'#Features'">Features</router-link></li>
                     <li> <router-link to="/aboutseiz" v-scroll-to="'#AboutSeiz'">About App</router-link></li>
                     <li><router-link to="/blogs" v-scroll-to="'#BlogBlot'">Blogs</router-link></li>
-                     <li><router-link to="/team" v-scroll-to="'#OurTeam'">Our Team</router-link></li>
-                     
+                    <li><router-link to="/team" v-scroll-to="'#OurTeam'">Our Team</router-link></li>
                 </ul>
-                 
             </div>
-
             <button v-if="!mobileview" id="sub" class="sub col-lg-3 col-md-2 ">
                     Subscribe Now
-                </button>
+            </button>
         </div>
         
     </nav>
