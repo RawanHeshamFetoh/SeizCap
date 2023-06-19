@@ -45,7 +45,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-*{
+*:not(i){
    font-family: DINTEXT;
 }
 .about{

@@ -30,10 +30,11 @@
     </nav>
 </template>
 <script>
+    
     export default {
         data: () =>{
             return{
-                mobileview : true,
+                mobileview : window.innerWidth < 760 ,
                 showNav : false ,
                 active: false,
                 innerWidth:window.innerWidth
@@ -43,7 +44,6 @@
             handleview(){
               this.innerWidth = window.innerWidth;
                 this.mobileview=  window.innerWidth < 760 ;
-                // window.location.reload();
             },
             toggle () {
         this.active = !this.active
