@@ -35,19 +35,22 @@
             return{
                 mobileview : true,
                 showNav : false ,
-                active: false
+                active: false,
+                innerWidth:window.innerWidth
             };
         },
         methods:{
             handleview(){
+              this.innerWidth = window.innerWidth;
                 this.mobileview=  window.innerWidth < 760 ;
+                // window.location.reload();
             },
             toggle () {
         this.active = !this.active
       }
         },
-        created(){
-            this.handleview();
+        mounted(){
+          window.addEventListener('resize', this.handleview);
         }
       
     }
